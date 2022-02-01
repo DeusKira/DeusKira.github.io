@@ -58,7 +58,7 @@ nav a:hover{
 }
 
 #content{
-    background-image: "trans-bg.gif";
+    background-image: ("trans-bg.gif");
     border-width: 1px;
     border-style: solid;
     border-color: #CCCCCC;
