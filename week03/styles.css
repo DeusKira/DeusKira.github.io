@@ -15,11 +15,9 @@ body{
 header h1{
     font-size: 350%;
     color: #7C1A00;
-    padding: 40%;
+    padding: 40px, 40px, 40px, 120px;
     padding-left: 120%;
-    background-image: ("header-image-1.gif");
+    background-image: url("header-image-1.gif");
+    background-position: top left;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 8px;
-    left: 16px;
 }
