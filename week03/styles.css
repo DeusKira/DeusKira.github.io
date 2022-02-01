@@ -59,9 +59,7 @@ nav a:hover{
 
 #content{
     background-image: ("trans-bg.gif");
-    border-width: 1px;
-    border-style: solid;
-    border-color: #CCCCCC;
+    border-width: 1px, solid, #CCCCCC;
     margin-left: 180px;
     padding: 10px;
 }
@@ -74,4 +72,36 @@ footer{
 footer li{
     display: inline;
     padding: 10px;
+}
+
+global h1{
+    color: #8C9273;
+}
+
+global h2{
+    border-left: 20px, solid, #8C9273;
+    border-bottom: 5px, solid, #8C9273;
+    padding-left: 5px;
+}
+
+global h3{
+    background-image: ("header-star-1.gif");
+    padding-left: 20px;
+}
+
+global blockquote{
+    background-color: #FFE597;
+}
+
+ul{
+    list-style-type: square;
+}
+
+global a{
+    color: #7C1A00;
+    font-weight: bold;
+}
+
+global a:hover{
+    background-color: #FFE597;
 }
